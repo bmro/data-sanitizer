@@ -1,0 +1,5 @@
+python-dotenv==1.0.0
+mysql-connector-python==8.0.33
+pandas==2.0.1
+Faker==18.7.0
+SQLAlchemy==2.0.12
