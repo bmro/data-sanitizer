@@ -1,0 +1,29 @@
+{
+    "output_format": "csv",
+    "tables": [
+        {
+            "name": "customers",
+            "columns": [
+                { "name": "customerName", "type": "company" },
+                { "name": "contactLastName", "type": "last_name" },
+                { "name": "contactFirstName", "type": "first_name" },
+                { "name": "phone", "type": "phone" },
+                { "name": "addressLine1", "type": "address" },
+                { "name": "addressLine2", "type": "blank" },
+                { "name": "city", "type": "city" },
+                { "name": "state", "type": "state" },
+                { "name": "postalCode", "type": "postal_code" },
+                { "name": "country", "type": "country" },
+                { "name": "creditLimit", "type": "float" }
+            ]
+        },
+        {
+            "name": "payments",
+            "columns": [
+                { "name": "paymentDate", "type": "date" },
+                { "name": "checkNumber", "type": "check" },
+                { "name": "amount", "type": "float" }
+            ]
+        }
+    ]
+}
